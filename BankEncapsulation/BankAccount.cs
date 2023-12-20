@@ -29,9 +29,9 @@ namespace BankEncapsulation
         public void ATM()
         {
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("___  ____ _  _ _  _ _ _  _ ____    ____ ___  ___  ");
-            Console.WriteLine("|__] |__| |\\ | |_/  | |\\ | | __    |__| |__] |__ ]");
-            Console.WriteLine("|__] |  | | \\| | \\_ | | \\| |__]    |  | |    |    ");
+            Console.WriteLine("___  ____ _  _ _  _ _ _  _ ____    ____ ___  ___ ");
+            Console.WriteLine("|__] |__| |\\ | |_/  | |\\ | | __    |__| |__] |__]");
+            Console.WriteLine("|__] |  | | \\| | \\_ | | \\| |__]    |  | |    |   ");
             Console.WriteLine($"\nWelcome, {AccountHolder}!");
 
             while (true)
