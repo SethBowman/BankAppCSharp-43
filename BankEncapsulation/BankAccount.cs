@@ -67,6 +67,7 @@ namespace BankEncapsulation
                         break;
                     case 3:
                         Console.WriteLine("Thank you for using our Banking App!");
+                        Console.ResetColor();
                         return;
                     default:
                         Console.WriteLine("Invalid option. Please choose a valid option.");
@@ -74,7 +75,6 @@ namespace BankEncapsulation
                 }
             }
 
-            Console.ResetColor();
         }
     }
 }
